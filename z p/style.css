@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    box-sizing: border-box;}
+ .log{
+     padding top:25px;
+     height: 30px;
+     float: left;
+     font-size: 22px;
+     text-transform: uppercase;
+     color:white;
+ } 
+ .log:hover{
+background-color: deeppink;
+ }
+ ul{
+     float: right;
+     padding: o;
+     margin: 0;
+     display: flex;
+     list-style:none ;
+ }  
+ li a{
+     height: 30px;
+     color: white;
+     padding: 30px;
+     font-size: 15px;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ li a:focus{
+    background-color: black;
+    border-radius: 7px;
+ }
+ li a:hover{
+     background-color: chartreuse;
+     border-radius: 7px;
+ }
+ body{
+     background-image: url(back.jpeg);
+ }
+
+

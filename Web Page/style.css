@@ -1,0 +1,46 @@
+ .logo{
+     display: inline-block;
+     margin-left: 30px;
+     
+ }
+ .logo{
+     margin-top: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     color: blue;
+ }
+ .logo:hover{
+    background-color:rgb(217, 255, 0);
+ }
+ .logo:active{
+    background-color:rgb(255, 0, 234);
+   }
+ .nav{
+    position: absolute;
+    left: 950px;
+    display: inline-block;
+    margin-top: 10px;
+    word-spacing: 30px;
+}
+.nav a:hover{
+ background-color:rgb(255, 0, 234);
+}
+.nav a:active{
+    background-color:rgb(217, 255, 0);
+   }
+.nav a{
+ text-decoration: none;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+color: blue;
+ 
+} 
+.content{
+    background-color: rgb(105, 225, 255);
+    height: 60px;
+}
+body{
+    margin: 0;
+    background-image: url(img.jpg);
+    background-size: cover;
+}

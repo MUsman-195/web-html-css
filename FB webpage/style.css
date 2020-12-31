@@ -1,0 +1,58 @@
+.head{
+    background-image: url(photo-1561758033-d89a9ad46330.jpg);
+     background-size: cover;  
+    height: 80vh;
+    flex-wrap: wrap;
+}
+.content{
+    color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+ .content h1{
+    margin-left: 60px;
+}
+.content input[type=text]{
+    border-radius: 3rem; 
+   margin-left: 50px;
+   padding: 8px;
+   margin-bottom: 10px;
+   width: 20rem;
+}
+.content input[type=button]{
+    display:block;
+    margin-left: 10rem;
+    width: 8rem;
+    background-color: rgba(0, 255, 255, 0.63);
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.content input:hover[type=button]{
+    background-color: crimson;
+}
+.content input[type=text]{
+     text-align: center;
+}
+.para2{
+     margin-left: 3rem;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+} 
+.container img{
+    width: 330px;
+    height: 250px;
+}
+.main{
+    width: 330px;
+    text-align: center;
+    
+    background-color: chocolate;
+    border: 1px solid black;
+}

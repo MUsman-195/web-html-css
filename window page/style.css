@@ -1,0 +1,40 @@
+body{
+    background-image: url(beach.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+.content{
+    text-align: center;
+}
+.content img {
+    width: 160px;
+    margin-top: 180px;
+    border: 4px solid red;
+    box-shadow:10px 10px 5px grey;;
+}
+h1{
+    color: white;
+}
+input[type=submit]{
+    color:black;
+    background-color: aqua;
+}
+input:hover{
+    background-color: green;
+}
+input[type=password] {
+  padding: 8px;
+  background-color: blue;
+  color:green;
+  font-size: 12px;
+}
+input::placeholder{
+    color:red;
+}
+input:hover{
+    background-color: indigo;
+}
+input[type=button]{
+    color: red;
+}

@@ -1,0 +1,25 @@
+.content{
+    border: 1px solid black;
+    width: 200px;
+    background-color: chartreuse;
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+ .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+ 
